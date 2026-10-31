@@ -201,7 +201,8 @@ export default function Navbar() {
               Jewellery
             </NavLink>
             <NavLink to="/deals" className="nav-item deals-nav">
-              <span className="fire-emoji">🔥</span> Deals
+              <span className="fire-emoji"></span> Deals  
+              {/* //removed the deal emoji */}
             </NavLink>
             <NavLink to="/about" className="nav-item">
               About
